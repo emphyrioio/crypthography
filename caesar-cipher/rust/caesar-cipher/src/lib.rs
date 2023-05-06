@@ -1,6 +1,6 @@
 mod cipher;
 
-pub use cipher::caesar_encrypt;
-
 #[cfg(test)]
-mod cipher_test;
+pub use cipher::test::test_caesar_encrypt;
+
+pub use cipher::caesar_encrypt;
